@@ -1,7 +1,7 @@
 # Docker image containing Python stuff based on base development image for
 # Debian testing.
 
-FROM fredrikandersson/debian-testing-dev-image-base:2026-02-23
+FROM fredrikandersson/debian-testing-dev-image-base:2026-10-20
 
 RUN apt-get update --quiet --yes && apt-get install --quiet --yes \
     dvipng \
