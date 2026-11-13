@@ -5,7 +5,6 @@ FROM fredrikandersson/debian-testing-dev-image-base:2026-10-20
 
 RUN apt-get update --quiet --yes && apt-get install --quiet --yes \
     dvipng \
-    pipenv \
     python3-full \
     python3-pip \
     python3-poetry \
